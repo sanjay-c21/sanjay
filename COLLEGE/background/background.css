@@ -1,0 +1,30 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      font-family:Arial, sans-serif;
+    }
+
+    .section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+
+    .fixed-bg {
+      background: url('https://community.nasscom.in/sites/default/files/styles/960_x_600/public/media/images/u.png?itok=lsOqjpSN') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .scrolls-bg {
+      background: url('https://s7ap1.scene7.com/is/image/incredibleindia/red-fort-delhi-attr-hero?qlt=82&ts=1727352293417') no-repeat center center;
+      background-size: cover;
+    }
+
+    .normal {
+      background-color: #333;
+    }
+    
