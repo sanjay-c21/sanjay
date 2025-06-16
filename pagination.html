@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Pagination</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    .product {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f4f4f4;
+      border-radius: 8px;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .pagination a {
+      margin: 0 5px;
+      padding: 10px 15px;
+      text-decoration: none;
+      background-color: #ddd;
+      color: #333;
+      border-radius: 20px;
+      transition: background 0.3s;
+    }
+
+    .pagination a:hover {
+      background-color: #888;
+      color: white;
+    }
+
+    .pagination a.active {
+      background-color: #333;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Product List</h2>
+
+  <div class="product"><a href="https://turbomoc.com/products/bmw-m3-e46-gtr?variant=50407420789077&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOor62TSHTONPnz8V4rHmzssb5Z_uaCr2D6wODqmMdb4e6IkK9L5pxr4">bmw product</a></div>
+  <div class="product"><a href="https://www.flipkart.com/iqoo-neo-10-inferno-red-256-gb/p/itm71d7f640ed666?pid=MOBHCQGNWXUZAWG4&lid=LSTMOBHCQGNWXUZAWG4RHPR1Y&marketplace=FLIPKART&cmpid=content_mobile_8965229628_gmc">iq proucts</a></div>
+  <div class="product"><a href="https://www.flipkart.com/samsung-108-cm-43-inch-full-hd-led-smart-tizen-tv-hdr-purcolor-dolby-digital-plus-hyper-real-picture-engine-triple-protection-smartthings-app-support-key-connect-share-hdd-connectshare-usb-2-0/p/itme5ad32e73c573?pid=TVSGRS7GYVN3UZNZ&lid=LSTTVSGRS7GYVN3UZNZS8JBM9&marketplace=FLIPKART&cmpid=content_television_8965229628_gmc">tv products</a></div>
+  <div class="product"><a href="https://www.aajjo.com/product/3-blades-crompton-ceiling-fans-400-rpm-in-delhi-indias-company">crompton products</a></div>
+  <div class="product"><a href="https://www.samsung.com/in/refrigerators/double-door/rt3500mh-256l-prism-black-rt30c3733bx-hl/?cid=in_pd_ppc_google_ce-samsungref-all-ref-dtc_sales_samsung-dd-all-2025_eshop-pmax-pla_26may2025-na_1ur-501463l-2025-eshop-bau-ce-performancemax-cpc_pfm--21272393512------x--RT30C3733BX%2FHL&gad_source=1&gad_campaignid=21261899409&gbraid=0AAAAADm5iQUJ253arK8xuy48C1_tv-S8s&gclid=CjwKCAjw3rnCBhBxEiwArN0QE5YmF1pdBNZt5Vu0Pi8kEcZJIsYL8KZYaAkphp5ZhM-USK_9IhG3NhoCM2wQAvD_BwE">fridge</a></div>
+
+  <div class="pagination">
+    <a href="#">«</a>
+    <a href="#">1</a>
+    <a href="#" class="active">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">»</a>
+  </div>
+
+</body>
+</html>
